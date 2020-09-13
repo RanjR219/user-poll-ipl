@@ -38,4 +38,4 @@ A MERN stack based application that lets users create post and vote on them.
 
 ![img](images/loginpage.png)
 
-![img2](images/post.png)
+![img2](images/Post.png)
