@@ -20,7 +20,7 @@ A MERN stack based application that lets users create post and vote on them.
 
 - local mongoDB needs to be running
 
-- To install mongoDB- https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fdocs.mongodb.com%2Fmanual%2Finstallation%2F
+- To install mongoDB- https://docs.mongodb.com/manual/installation/
 
 ## Frontend:
 
