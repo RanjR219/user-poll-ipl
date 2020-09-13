@@ -41,8 +41,7 @@ router.post("/posts", function (req, res) {
 
     res.json(obj);
   });
-  // console.log(post);
-  // res.json(post);
+  
 });
 
 router.patch("/posts/:id", function (req, res) {

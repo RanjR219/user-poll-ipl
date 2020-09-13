@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
-import "./Avatar.css";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -18,8 +17,6 @@ function AvatarPic(props) {
   const classes = useStyles();
 
   function emailFormatter(emailid) {
-    console.log(typeof emailid);
-
     const str = String(emailid);
     const name = str.split("@")[0];
 

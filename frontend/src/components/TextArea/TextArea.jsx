@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./TextArea.css";
 
 import Button from "@material-ui/core/Button";
 
@@ -37,14 +36,6 @@ function TextArea(props) {
           props.onAdd(data);
         });
 
-      // props.onAdd({
-      //   title: text.title,
-      //   content: text.content,
-      //   timeStamp: Date(),
-      //   user: props.user,
-      //   like: 0,
-      //   dislike: 0,
-      // });
       setCreateText({
         title: "",
         content: "",
