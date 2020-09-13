@@ -1,0 +1,11 @@
+.post {
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.properties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
